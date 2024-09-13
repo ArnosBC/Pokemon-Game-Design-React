@@ -40,8 +40,9 @@ const SelectPokemon = ({ Pokemons }) => {
             {Pokemons.map((item, index) => (
               <div
                 key={index}
-                className={`${item.fondo.fondoImage} relative h-[220px] w-[350px] bg-[${item.fondo.fondoColor}] rounded-2xl group transition-transform duration-300 ease-in-out transform hover:scale-125 hover:z-10 cursor-pointer`}
+                className={`${item.fondo.fondoImage} relative h-[220px] w-[350px] rounded-2xl group transition-transform duration-300 ease-in-out transform hover:scale-125 hover:z-10 cursor-pointer`}
                 onClick={() => navigate(`/info-pokemon/${index}`)}
+                style={{ backgroundColor: item.fondo.fondoColor }}
               >
                 <img
                   className="absolute top-[-70px] right-0 w-[280px]"
