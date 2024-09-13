@@ -53,12 +53,14 @@ const SelectPokemon = ({ Pokemons }) => {
                   <h1 className="font-bold text-[24px]">{item.name}</h1>
                   <div className="flex gap-3">
                     <h3
-                      className={`flex items-center gap-1 justify-center bg-[${item.fondo.cartaColor}] py-1 px-3 rounded-full`}
+                      className={`flex items-center gap-1 justify-center py-1 px-3 rounded-full`}
+                      style={{ backgroundColor: item.fondo.cartaColor }}
                     >
                       <p className="font-semibold text-[16px]">{item.type}</p>
                     </h3>
                     <h3
-                      className={`bg-[${item.fondo.cartaColor}] py-1 px-3 rounded-full`}
+                      className={`py-1 px-3 rounded-full`}
+                      style={{ backgroundColor: item.fondo.cartaColor }}
                     >
                       <p className="font-semibold text-[16px]">
                         {item.Evolution}
