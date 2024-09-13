@@ -5,7 +5,7 @@ import player1 from "../assets/player-1.png";
 import player2 from "../assets/Profile.png";
 import live1 from "../assets/vidaPlayer-1.png";
 import live2 from "../assets/vidaPlayer-2.png";
-import line from "../assets/line.png";
+import line from "../assets/Line.png";
 import position1 from "../assets/position-1.png";
 import position2 from "../assets/position-2.png";
 import position3 from "../assets/position-3.png";
