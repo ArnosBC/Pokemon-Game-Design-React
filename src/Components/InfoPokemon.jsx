@@ -43,7 +43,8 @@ const InfoPokemon = ({ Pokemons }) => {
       </header>
       <main className="relative flex flex-col">
         <div
-          className={`flex justify-center drop-shadow-[0px_-100px_200px_${pokemon.color}]`}
+          className={`flex justify-center`}
+          style={{ filter: `drop-shadow(0px -100px 200px ${pokemon.color})` }}
         >
           <div className={`${pokemon.fondo.fondoImage}`}>
             <img src={pokemon.image} alt={pokemon.name} />
@@ -61,7 +62,7 @@ const InfoPokemon = ({ Pokemons }) => {
           <p className="text-[#dddddd] text-[14px] text-center w-[360px]">
             {pokemon.description}
           </p>
-          <a className={`font-medium text-[white] underline`} href="#">
+          <a className="font-medium text-[white] underline" href="#">
             View Stats
           </a>
         </div>
@@ -90,17 +91,6 @@ const InfoPokemon = ({ Pokemons }) => {
           </div>
         </div>
       </main>
-
-      <div className="hidden bg-[#FF4210]">
-        <br className="bg-[#ffe4dd]" />
-        <br className="bg-[#e6a23d]" />
-        <br className="bg-[#9ee2c9]" />
-        <br className="bg-[#B2FFE2]" />
-        <br className="bg-[#94eabe]" />
-        <br className="bg-[#A2DDF4]" />
-        <br className="bg-[#91c4d7]" />
-        <br className="bg-[#3aefe4]" />
-      </div>
     </div>
   );
 };

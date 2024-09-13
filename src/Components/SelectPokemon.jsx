@@ -70,13 +70,6 @@ const SelectPokemon = ({ Pokemons }) => {
           </div>
         </div>
       </main>
-      <div className="hidden bg-[#B2FFE2]">
-        <br className="bg-[#9ee2c9]" />
-        <br className="bg-[#FFB444]" />
-        <br className="bg-[#e6a23d]" />
-        <br className="bg-[#A2DDF4]" />
-        <br className="bg-[#91c4d7]" />
-      </div>
     </div>
   );
 };
