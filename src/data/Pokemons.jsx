@@ -1,8 +1,12 @@
+import CharizardImage from "../assets/Charizard.png";
+import BulbasaurImage from "../assets/bulbasaur.png";
+import BlastoiseImage from "../assets/blastoise.png";
+
 export let Pokemons = [
   {
     name: "Charizard",
     type: "🔥 Fire",
-    image: "../assets/Charizard.png",
+    image: CharizardImage,
     description:
       "Charizard is known for its dragon-like appearance, with a large wingspan and a long, pointed tail.  He is capable of using powerful Fire-type attacks as well as Flying-type moves.",
     fondo: {
@@ -18,7 +22,7 @@ export let Pokemons = [
   {
     name: "Bulbasaur",
     type: "🍃 Plant",
-    image: "../assets/bulbasaur.png",
+    image: BulbasaurImage,
     description:
       "Bulbasaur is a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches. It has red eyes with white pupils, pointed, ear-like structures on top of its head, and a short, blunt snout with a wide mouth.",
     fondo: {
@@ -34,7 +38,7 @@ export let Pokemons = [
   {
     name: "Blastoise",
     type: "💦  Water",
-    image: "../assets/blastoise.png",
+    image: BlastoiseImage,
     description:
       "Blastoise is a large, bipedal turtle Pokémon. Its body is blue and is mostly hidden by its tough, brown shell. This shell has a cream-colored underside and a white ridge encircling its arms and separating the upper and lower halves.",
     fondo: {
