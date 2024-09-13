@@ -3,7 +3,7 @@ import back from "../assets/atras.png";
 import rigth from "../assets/derecha.png";
 import left from "../assets/izquierda.png";
 import swipeUp from "../assets/swipeUp.png";
-import pokebola from "../assets/pokebola.png";
+import pokebola from "../assets/Pokebola.png";
 import perfil from "../assets/Profile.png";
 import { Link, useNavigate, useParams } from "react-router-dom";
 
@@ -61,10 +61,7 @@ const InfoPokemon = ({ Pokemons }) => {
           <p className="text-[#dddddd] text-[14px] text-center w-[360px]">
             {pokemon.description}
           </p>
-          <a
-            className={`font-medium text-[white] underline`}
-            href="#"
-          >
+          <a className={`font-medium text-[white] underline`} href="#">
             View Stats
           </a>
         </div>
